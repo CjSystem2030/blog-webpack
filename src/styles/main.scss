@@ -1,0 +1,17 @@
+@import '_header';
+@import '_contenido';
+
+$bg-cuatro:#effffb;
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    background-color:$bg-cuatro;
+    display: flex;
+    justify-content:space-evenly;
+}
